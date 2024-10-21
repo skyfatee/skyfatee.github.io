@@ -396,6 +396,16 @@
         max-width: 100%;
     }
 
+    .menu {
+        &__block {
+            width: 261px;
+        }
+
+        &__list {
+            padding-left: 20px;
+        }
+    }
+
     .promo {
         padding: 145px 0 0 20px;
 
@@ -578,7 +588,11 @@
         #name,
         #email,
         #text {
-            width: 300px;
+            width: 250px;
+        }
+
+        #text {
+            resize: vertical;
         }
 
         &__wrapper {
