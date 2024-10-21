@@ -1,0 +1,613 @@
+@media (max-width: 1439px) {
+    .sidepanel {
+        display: none;
+    }
+
+    .resume {
+        &__column {
+            ul {
+                li {
+                    &:after {
+                        height: 103%;
+                        top: -8.5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .promo {
+        padding: 205px 0 0 30px;
+    }
+
+    .about {
+        &__wrapper {
+            grid-template-columns: 260px 570px;
+            column-gap: 40px;
+            row-gap: 30px;
+        }
+
+        &__skills-item {
+            grid-template-columns: 40px 220px;
+        }
+
+        &__skills-text {
+            margin-top: 6px;
+        }
+    }
+
+    .resume {
+        &__wrapper {
+            grid-template-columns: repeat(2, 350px);
+            column-gap: 125px;
+            justify-content: center;
+        }
+    }
+
+
+    .skills {
+        &__items {
+            grid-template: repeat(2, minmax(270px, auto)) / repeat(3, 270px);
+            justify-content: center;
+            padding: 0;
+            gap: 12.5px;
+        }
+
+        &__ratings {
+            grid-template-columns: repeat(2, 350px);
+            justify-content: space-evenly;
+        }
+    }
+
+    .portfolio {
+        &__wrapper {
+            grid-template: repeat(2, 220px) / repeat(4, 220px);
+            gap: 5px;
+            justify-content: center;
+        }
+    }
+
+    .price {
+        padding: 120px 20px 0 20px;
+    }
+
+    .contacts {
+
+        &__subtitle {
+            font-size: 32px;
+        }
+
+        &__form {
+            grid-template: 40px 140px 40px / repeat(2, 200px);
+            gap: 20px;
+        }
+
+        &__wrapper {
+            grid-template-columns: 10px 435px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .promo {
+        padding: 155px 0 0 35px;
+
+        .hamburger {
+            right: 25px;
+        }
+
+        &__title {
+            font-size: 34px;
+            line-height: 53px;
+        }
+    }
+
+    .about {
+        padding-top: 120px;
+
+        &__wrapper {
+            grid-template-columns: 1fr;
+            justify-items: center;
+            column-gap: 0;
+        }
+
+        &__photo {
+            display: none;
+        }
+
+        img {
+            display: none;
+        }
+
+        &__text {
+            width: 428px;
+            line-height: 14px;
+        }
+
+        &__subtitle {
+            font-size: 32px;
+            line-height: 53px;
+        }
+
+        &__skills {
+            grid-template: repeat(1, minmax(115px, auto)) / repeat(1, 269px);
+            column-gap: 0;
+        }
+
+        &__skills-item {
+            grid-template-columns: 40px 230px;
+        }
+    }
+
+    .resume {
+        &__subtitle {
+            font-size: 32px;
+            line-height: 53px;
+        }
+
+        &__wrapper {
+            grid-template-columns: repeat(1, 350px);
+            column-gap: 0;
+        }
+
+        &__column {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            li {
+                &::after {
+                    top: -10px;
+                }
+            }
+        }
+    }
+
+    .skills {
+        .title__section-subtitle {
+            font-size: 32px;
+            line-height: 53px;
+        }
+
+        .divider {
+            margin: 20px auto 0 auto;
+        }
+
+        &__items {
+            grid-template: repeat(2, minmax(270px, auto)) / repeat(2, 270px);
+            gap: 10.5px;
+        }
+
+        &__ratings {
+            padding-top: 120px;
+            grid-template-columns: repeat(2, 270px);
+            column-gap: 35px;
+        }
+    }
+
+    .portfolio {
+        .title__section-subtitle {
+            font-size: 32px;
+            line-height: 53px;
+        }
+
+        .divider {
+            margin: 20px auto 0 auto;
+        }
+
+        &__wrapper {
+            margin-top: 55px;
+            gap: 4.5px;
+            grid-template: repeat(2, 180px) / repeat(4, 180px);
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .price {
+        &__wrapper {
+            grid-template-columns: repeat(1, 366px);
+            margin-top: 55px;
+        }
+    }
+
+    .contacts {
+        &__subtitle {
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        &__wrapper {
+            grid-template-columns: 10px 570px;
+        }
+
+        &__form {
+            grid-template: 45px 180px 40px / repeat(2, 255px);
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    .promo {
+        padding: 150px 0 0 35px;
+
+        &__title {
+            font-size: 32px;
+            line-height: 48px;
+        }
+    }
+
+    .about {
+        &__subtitle {
+            font-size: 30px;
+        }
+
+        &__text {
+            width: 323px;
+        }
+
+        &__wrapper {
+            justify-items: center;
+            grid-template-columns: 1fr;
+        }
+
+        .divider {
+            margin: 4px 0 17px 0;
+        }
+
+        &__skills {
+            grid-template: repeat(1, minmax(115px, auto)) / repeat(1, 300px);
+        }
+
+    }
+
+    .resume {
+        &__subtitle {
+            font-size: 30px;
+            line-height: 48px;
+        }
+
+        &__item-head {
+            padding: 40px 0 0 100px;
+        }
+
+        &__column {
+            margin-bottom: 25px;
+        }
+
+        &__column-title {
+            &:before {
+                top: 45%;
+            }
+        }
+
+        &__item-icon {
+            top: 45px;
+        }
+
+        ul {
+            li {
+                &:after {
+                    top: -9px;
+                    height: 105%;
+                }
+            }
+        }
+
+        &__item {
+            &:before {
+                top: 62px;
+            }
+        }
+    }
+
+    .skills {
+        .title__section-subtitle {
+            font-size: 30px;
+            line-height: 48px;
+        }
+
+        &__items {
+            gap: 9.5px;
+        }
+
+        &__ratings {
+            grid-template-columns: repeat(2, 240px);
+            padding-top: 115px;
+        }
+    }
+
+    .portfolio {
+        .title__section-subtitle {
+            font-size: 30px;
+            line-height: 48px;
+        }
+
+        .divider {
+            margin: 15px auto 0 auto;
+        }
+
+        &__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 50px;
+
+            img {
+                width: 250px;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .price {
+        padding: 115px 20px 0 20px;
+
+        &__wrapper {
+            margin-top: 50px;
+            grid-template-columns: repeat(1, 347px);
+        }
+
+        &__item {
+            &:before {
+                left: -8.3%;
+            }
+        }
+    }
+
+    .contacts {
+        &__subtitle {
+            font-size: 30px;
+            line-height: 48px;
+        }
+
+        &__wrapper {
+            grid-template-columns: 10px 440px;
+        }
+
+        &__form {
+            grid-template: 40px 160px 45px / repeat(2, 205px);
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    .container {
+        max-width: 100%;
+    }
+
+    .promo {
+        padding: 145px 0 0 20px;
+
+        &__title {
+            width: 289px;
+            font-size: 28px;
+            line-height: 42px;
+        }
+
+        .hamburger {
+            right: 20px;
+        }
+
+        .btn {
+            width: 150px;
+            height: 45px;
+            padding: 10px 35px;
+        }
+    }
+
+    .about {
+        padding: 0px 15px 0 15px;
+
+        &__title {
+            padding: 9px 0 4px 11px;
+        }
+
+        &__subtitle {
+            font-size: 28px;
+            line-height: 33px;
+        }
+
+        .divider {
+            margin: 4px 0 15px 0;
+        }
+
+        &__skills {
+            grid-template: repeat(1, minmax(115px, auto)) / repeat(1, 240px);
+        }
+
+        &__text {
+            width: 286px;
+            line-height: 13px;
+        }
+
+        &__wrapper {
+            justify-items: center;
+            grid-template-columns: 1fr;
+        }
+
+        &__skills-item {
+            grid-template-columns: 40px 177px;
+        }
+    }
+
+    .resume {
+        &__subtitle {
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        .divider {
+            margin: 20px auto 0 auto;
+        }
+
+        &__wrapper {
+            grid-template-columns: repeat(1, 263px);
+            padding: 60px 30px 0 30px;
+        }
+
+        &__column-title {
+            padding-left: 30px;
+        }
+
+        ul {
+            li {
+                &:after {
+                    top: -5px;
+                }
+            }
+        }
+
+        &__item-head {
+            padding: 35px 0 0 100px;
+        }
+
+        &__item-location {
+            margin-top: 4px;
+        }
+
+        &__item {
+            &:before {
+                top: 55px;
+            }
+        }
+
+        &__item-icon {
+            top: 40px;
+        }
+    }
+
+    .skills {
+        .title__section-subtitle {
+            font-size: 28px;
+            margin-top: 9px;
+            line-height: 30px;
+        }
+
+        &__items {
+            grid-template: repeat(1, minmax(270px, auto)) / repeat(1, 270px);
+            gap: 8.5px;
+        }
+
+        h3 {
+            margin-top: 15px;
+        }
+
+        &__item {
+            padding: 25px 25px 25px 25px;
+        }
+
+        &__ratings {
+            grid-template-columns: repeat(1, 270px);
+        }
+    }
+
+    .portfolio {
+        .title__section-subtitle {
+            font-size: 28px;
+            line-height: 45px;
+        }
+
+        .divider {
+            margin: 13px auto 0 auto;
+        }
+
+        &__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            img {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .price {
+        padding: 110px 10px 0 10px;
+
+        .divider {
+            margin: 26px auto 0 auto;
+        }
+
+        &__wrapper {
+            grid-template-columns: repeat(1, 266px);
+        }
+    }
+
+    .contacts {
+        &__subtitle {
+            font-size: 28px;
+            line-height: 44px;
+        }
+
+        &__social {
+            margin-top: 15px;
+        }
+
+        &__text {
+            margin-top: 15px;
+        }
+
+        &__input {
+            height: 45px;
+        }
+
+        #name,
+        #email,
+        #text {
+            width: 300px;
+        }
+
+        &__wrapper {
+            padding: 0 15px 0 15px;
+            display: flex;
+        }
+
+        &__content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &__form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__policy {
+            font-size: 10px;
+        }
+
+        &__triggers {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            column-gap: 0;
+            row-gap: 20px;
+        }
+    }
+}
