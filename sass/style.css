@@ -1135,6 +1135,12 @@ html {
   .container {
     max-width: 100%;
   }
+  .menu__block {
+    width: 261px;
+  }
+  .menu__list {
+    padding-left: 20px;
+  }
   .promo {
     padding: 145px 0 0 20px;
   }
@@ -1268,7 +1274,10 @@ html {
   .contacts #name,
   .contacts #email,
   .contacts #text {
-    width: 300px;
+    width: 250px;
+  }
+  .contacts #text {
+    resize: vertical;
   }
   .contacts__wrapper {
     padding: 0 15px 0 15px;
